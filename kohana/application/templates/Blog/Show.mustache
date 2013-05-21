@@ -1,0 +1,12 @@
+    {{#blog}}
+    <article class="blog">
+        <header>
+            <div class="date"><time datetime="{{created}}">{{created}}</time></div>
+            <h2>{{title}}</h2>
+        </header>
+        <div>
+            <p>{{blog}}</p>
+        </div>
+    </article>
+    {{/blog}}
+{{<comments/index}}

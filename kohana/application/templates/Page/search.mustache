@@ -1,0 +1,18 @@
+{{#results}}
+<article class="blog">
+            <div class="date">{{created}}</div>
+            <header>
+                <h2><a href="{{show_url}}">{{title}}</a></h2>
+            </header>
+
+            <div class="snippet">
+                <p>{{{blog}}}</p>
+                <p class="continue"><a href="{{show_url}}">Continue reading...</a></p>
+            </div>
+
+            <footer class="meta">
+                <p>Posted by <span class="highlight">{{author}}</span> at {{created}}</p>
+                <p>Tags: <span class="highlight">{{tags}}</span></p>
+            </footer>
+        </article>
+{{/results}}

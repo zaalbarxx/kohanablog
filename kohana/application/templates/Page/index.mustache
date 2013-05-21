@@ -1,0 +1,21 @@
+{{#blogs}}
+        <article class="blog">
+            <div class="date"><time datetime="{{created}}">{{created}}</time></div>
+            <header>
+                <h2><a href="{{url}}">{{title}}</a></h2>
+            </header>
+
+            <div class="snippet">
+                <p>{{blog}}</p>
+                <p class="continue"><a href="{{url}}">Continue reading...</a></p>
+            </div>
+            <footer class="meta">
+                <p>Comments: <a href="{{url}}#comments">{{comments}}</a></p>
+                <p>Posted by <span class="highlight">{{author}}</span> at {{created}}</p>
+                <p>Tags: <span class="highlight">{{tags}}</span></p>
+            </footer>
+        </article>
+{{/blogs}}
+{{^blogs}}
+        <p>There are no blog entries for symblog</p>
+{{/blogs}}

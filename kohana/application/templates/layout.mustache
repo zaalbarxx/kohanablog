@@ -1,0 +1,46 @@
+<!-- app/Resources/views/base.html.twig -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset=utf-8" />
+        <title>Kohana BLOG - KohaBlog</title>
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+            <link href='http://fonts.googleapis.com/css?family=Irish+Grover' rel='stylesheet' type='text/css'>
+            <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+            <link href="{{base}}assets/screen.css" type="text/css" rel="stylesheet" />
+        <link rel="shortcut icon" href="favicon.ico" />
+    </head>
+    <body>
+
+        <section id="wrapper">
+            <header id="header">
+                <div class="top">
+                        <nav>
+                            <ul class="navigation">
+                            {{#navi_bar}}
+                                <li><a href="{{url}}">{{name}}</a></li>
+                            {{/navi_bar}}
+                            </ul>
+                        </nav>
+                </div>
+
+                <hgroup>
+                    <h2><a href="#">kohablog</a></h2>
+                    <h3><a href="#">creating a blog in Kohana 3.3</a></h3>
+                </hgroup>
+            </header>
+
+            <section class="main-col">
+            {{>content}}
+            </section>
+            <aside class="sidebar">
+            </aside>
+
+            <div id="footer">
+                    Kohana blog - based on Symfony 2 Blog by <a href="https://github.com/dsyph3r">dsyph3r</a>
+            </div>
+        </section>
+    </body>
+</html>
