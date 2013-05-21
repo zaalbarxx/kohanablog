@@ -1,0 +1,3 @@
+[submodule "kohana/modules/firephp"]
+	path = kohana/modules/firephp
+	url = https://github.com/kloopko/kohana-firephp.git
