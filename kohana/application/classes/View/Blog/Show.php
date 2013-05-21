@@ -23,7 +23,7 @@ class View_Blog_Show extends View_Layout
 
     public function get_comments()
     {
-        $r = $this->blog->comment->find_all();
+        $r = $this->blog->comment->order_by('created','DESC')->find_all();
         return $r;
     }
 
@@ -40,6 +40,7 @@ class View_Blog_Show extends View_Layout
 
     public function status()
     {
+	    Fire::dump('errors',Session::instance()->get('status'));
         $a = Session::instance()->get_once('status');
         if ($a == null) {
             return false;

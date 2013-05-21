@@ -7,7 +7,6 @@ class View_Page_Search extends View_Layout
 
     public function results()
     {
-        Fire::log('This is query:'.$this->query);
         $search = array();
         $results = ORM::factory('blog')->where('title', 'LIKE', '%' . $this->query . '%')
             ->or_where('blog', 'LIKE', '%' . $this->query . '%')
@@ -33,6 +32,16 @@ class View_Page_Search extends View_Layout
     protected function truncatePreserveWords($h, $n, $w = 5, $tag = 'b')
     {
         $n = explode(" ", trim(strip_tags($n))); //needles words
+
+	    for($a=0;$a<count($n);$a++){
+		    if(strpos($n[$a],$h)!=FALSE) continue;
+		    else if($a == count($n)-1){
+			    if(strlen($h)<500) return $h;
+			    else return substr($h,0,500).'...';
+		    }
+	    }
+
+
         $b = explode(" ", trim(strip_tags($h))); //haystack words
         $c = array(); //array of words to keep/remove
         for ($j = 0; $j < count($b); $j++) $c[$j] = false;

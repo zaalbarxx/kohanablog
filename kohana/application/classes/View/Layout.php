@@ -16,4 +16,12 @@ class View_Layout
 			array('name' => 'Contact', 'url' => Route::url('contact'))
 		);
 	}
+	public function search_form(){
+		return array(
+		Form::open(Route::url('search'),array('method'=>'GET')),
+		Form::input('query'),
+		Form::submit(NULL,'Search'),
+		Form::close()
+		);
+	}
 }

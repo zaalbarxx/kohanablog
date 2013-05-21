@@ -1,4 +1,4 @@
-<!-- app/Resources/views/base.html.twig -->
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,9 +19,9 @@
                 <div class="top">
                         <nav>
                             <ul class="navigation">
-                            {{#navi_bar}}
-                                <li><a href="{{url}}">{{name}}</a></li>
-                            {{/navi_bar}}
+                            {{#logout}}
+                            <li><a href="{{url}}">{{name}}</a>
+                            {{/logout}}
                             </ul>
                         </nav>
                 </div>
@@ -35,10 +35,6 @@
             <section class="main-col">
             {{>content}}
             </section>
-            <aside class="sidebar">
-            {{>searchbar}}
-            </aside>
-
             <div id="footer">
                     Kohana blog - based on Symfony 2 Blog by <a href="https://github.com/dsyph3r">dsyph3r</a>
             </div>
