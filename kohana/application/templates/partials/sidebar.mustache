@@ -1,0 +1,47 @@
+<section class="section">
+    <header>
+        <h3>Search</h3>
+    </header>
+    {{#search_form}}
+        {{{.}}}
+    {{/search_form}}
+</section>
+<section class="section">
+    <header>
+        <h3>Tag Cloud</h3>
+    </header>
+<p class="tags">
+    {{#tags}}
+        <span class="weight-{{weight}}">{{name}}</span>
+    {{/tags}}
+
+    {{^tags}}
+        <p>There are no tags</p>
+    {{/tags}}
+    </p>
+</section>
+<section class="section">
+    <header>
+        <h3>Latest Comments</h3>
+    </header>
+    {{#latest_comments}}
+        <article class="comment">
+            <header>
+                <p class="small"><span class="highlight">{{user}}</span> commented on
+
+                    <a href="{{url}}#comment-{{id}}">
+                        {{title}}
+                    </a>
+                    [<em>
+                        <time datetime="{{created}}">{{created}}</time>
+                    </em>]
+                </p>
+            </header>
+            <p>{{comment}}</p>
+            </p>
+        </article>
+    {{/latest_comments}}
+    {{^latest_comments}}
+        <p>There are no recent comments</p>
+    {{/latest_comments}}
+</section>

@@ -40,7 +40,6 @@ class View_Blog_Show extends View_Layout
 
     public function status()
     {
-	    Fire::dump('errors',Session::instance()->get('status'));
         $a = Session::instance()->get_once('status');
         if ($a == null) {
             return false;

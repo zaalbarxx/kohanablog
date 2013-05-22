@@ -2,43 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" name="Default" comment="--commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/View/LayoutAdmin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/Model/Role.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/Model/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/templates/Admin/index.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/templates/layoutadmin.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/templates/Admin/login.mustache" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/templates/partials/searchbar.mustache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/config/pagination.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\kohanablog\kohana\application\templates\partials\searchbar.mustache" afterPath="$PROJECT_DIR$/kohana/application/templates/partials/sidebar.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Layout.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Layout.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Page/Search.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Page/Search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/cache/a4/a4b50012e9a6c5200c40dc59b07a59c958d72207.txt" afterPath="$PROJECT_DIR$/kohana/application/cache/a4/a4b50012e9a6c5200c40dc59b07a59c958d72207.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/bootstrap.php" afterPath="$PROJECT_DIR$/kohana/application/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kohanablog.iml" afterPath="$PROJECT_DIR$/.idea/kohanablog.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/templates/layout.mustache" afterPath="$PROJECT_DIR$/kohana/application/templates/layout.mustache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kohanablog.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369163212109" ignored="false" />
+    <file path="/Dummy.txt" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369260377160" ignored="false" />
     <file path="/Show.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369174072935" ignored="false" />
-    <file path="/Index.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369171008529" ignored="false" />
-    <file path="/Layout.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369163673767" ignored="false" />
-    <file path="/bootstrap.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369154753311" ignored="false" />
-    <file path="/layout.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369163134241" ignored="false" />
+    <file path="/Index.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369261402858" ignored="false" />
+    <file path="/Layout.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369259528631" ignored="false" />
+    <file path="/bootstrap.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369262483713" ignored="false" />
+    <file path="/layout.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369254615178" ignored="false" />
     <file path="/index.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369171458921" ignored="false" />
     <file path="/Comment.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369174196000" ignored="false" />
     <file path="/about.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369158207673" ignored="false" />
     <file path="/Contact.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369159673489" ignored="false" />
-    <file path="/a.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369168132718" ignored="false" />
+    <file path="/a.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369259897576" ignored="false" />
     <file path="/contact.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369159902054" ignored="false" />
     <file path="/screen.css" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369160028257" ignored="false" />
     <file path="/search_bar.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369163402370" ignored="false" />
     <file path="/Search.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369164656062" ignored="false" />
-    <file path="/Main.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369165623833" ignored="false" />
+    <file path="/Main.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369261153327" ignored="false" />
     <file path="/Layout_Admin.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369167164296" ignored="false" />
     <file path="/layout_admin.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369165222800" ignored="false" />
     <file path="/a.dummy" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369166930177" ignored="false" />
@@ -47,6 +39,8 @@
     <file path="/Auth.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369171578259" ignored="false" />
     <file path="/layoutadmin.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369171156036" ignored="false" />
     <file path="/LayoutAdmin.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369171629391" ignored="false" />
+    <file path="/sidebar.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369260679798" ignored="false" />
+    <file path="/dummy.xml" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369260629043" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,51 +60,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Comment.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="75" selection-start="453" selection-end="453" vertical-scroll-proportion="0.22077923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Show.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/Blog/Show.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/partials/comments/index.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_add.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/partials/comments/form_add.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="status.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/partials/status.mustache">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Main.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,7 +72,16 @@
       <file leaf-file-name="Auth.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="86" selection-start="640" selection-end="640" vertical-scroll-proportion="-10.461538">
+            <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="-20.26923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/bootstrap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="15" selection-start="4755" selection-end="4755" vertical-scroll-proportion="-98.07692">
               <folding />
             </state>
           </provider>
@@ -132,7 +90,7 @@
       <file leaf-file-name="Login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="13" column="8" selection-start="347" selection-end="347" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
@@ -141,16 +99,52 @@
       <file leaf-file-name="Main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="20" selection-start="964" selection-end="1019" vertical-scroll-proportion="-17.653847">
+            <state line="6" column="36" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Show.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php">
+      <file leaf-file-name="Comment.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="44" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-25.5">
+            <state line="11" column="75" selection-start="453" selection-end="453" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Blog.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Blog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="28" selection-start="74" selection-end="74" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagination.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kohana/application/config/pagination.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.31211752">
               <folding />
             </state>
           </provider>
@@ -174,12 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Page/Search.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Layout_Admin.php" />
-        <option value="$PROJECT_DIR$/kohana/application/templates/layout_admin.mustache" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Layout-Admin.php" />
-        <option value="$PROJECT_DIR$/kohana/application/templates/layout.mustache" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Admin/Login.php" />
         <option value="$PROJECT_DIR$/kohana/application/templates/Admin/login.mustache" />
         <option value="$PROJECT_DIR$/kohana/application/templates/layoutadmin.mustache" />
         <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Main.php" />
@@ -187,18 +175,24 @@
         <option value="$PROJECT_DIR$/kohana/application/templates/Admin/index.mustache" />
         <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Auth.php" />
         <option value="$PROJECT_DIR$/kohana/application/classes/View/LayoutAdmin.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Main.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php" />
         <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php" />
+        <option value="$PROJECT_DIR$/kohana/application/templates/layout.mustache" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/View/Layout.php" />
+        <option value="$PROJECT_DIR$/kohana/application/templates/partials/sidebar.mustache" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Main.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php" />
+        <option value="$PROJECT_DIR$/kohana/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/kohana/application/config/pagination.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -271,6 +265,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pagination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -694,8 +754,8 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SymfonyProject" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -712,6 +772,9 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kohanablog\kohana\application\config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\kohanablog\kohana\application\classes\View" />
       <recent name="C:\xampp\htdocs\kohanablog\kohana" />
@@ -728,7 +791,7 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="ad485545-ed32-40bc-98f4-ced9e8610b4a" server_name="KohanaBlog">
       <method />
     </configuration>
     <list size="0" />
@@ -766,24 +829,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25026682" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24908201" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="2962" y="611" width="612" height="351" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -851,65 +915,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/index.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="112" selection-end="112" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Model/Role.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/LayoutAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="56" selection-start="531" selection-end="531" vertical-scroll-proportion="-10.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="35" selection-start="4569" selection-end="4569" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Blog/Show.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/partials/comments/index.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kohana/application/templates/partials/comments/form_add.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/templates/layout.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="22" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="39" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -921,16 +939,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Login.php">
+    <entry file="file://$PROJECT_DIR$/kohana/application/templates/partials/sidebar.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="10" selection-start="408" selection-end="408" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="95" selection-start="1329" selection-end="1329" vertical-scroll-proportion="-34.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="36" selection-start="143" selection-end="143" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="75" selection-start="453" selection-end="453" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Blog.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Auth.php">
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="86" selection-start="640" selection-end="640" vertical-scroll-proportion="-10.461538">
+        <state line="13" column="8" selection-start="347" selection-end="347" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
@@ -942,23 +988,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Main.php">
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="20" selection-start="964" selection-end="1019" vertical-scroll-proportion="-17.653847">
+        <state line="31" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="-20.26923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Blog/Show.php">
+    <entry file="file://$PROJECT_DIR$/kohana/application/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="44" selection-start="1249" selection-end="1249" vertical-scroll-proportion="-25.5">
+        <state line="150" column="15" selection-start="4755" selection-end="4755" vertical-scroll-proportion="-98.07692">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php">
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="75" selection-start="453" selection-end="453" vertical-scroll-proportion="0.22077923">
+        <state line="4" column="0" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="74" selection-end="74" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/config/pagination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.31211752">
           <folding />
         </state>
       </provider>
