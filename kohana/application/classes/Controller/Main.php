@@ -19,14 +19,6 @@ class Controller_Main extends Controller
 		$this->response->body($this->layout->render($view));
 	}
 
-	public function action_show()
-	{
-		$id = $this->request->param('id');
-		$blog = ORM::factory('blog', 1);
-		$view = new View_Blog_Show;
-		$view->result = $blog;
-		//	$this->response->body($this->layout->render($view));
-	}
 
 	public function action_contact_add()
 	{

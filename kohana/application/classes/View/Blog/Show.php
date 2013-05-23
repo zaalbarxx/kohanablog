@@ -2,15 +2,13 @@
 
 class View_Blog_Show extends View_Layout
 {
-	public $title,$result;
+	public $title,$blog;
     public $id, $comments, $cycle = 'odd';
     public $comment_ok = 'Comment has been added correctly!';
 
-//	public function title(){
-//		return $this->blog->title.$this->title;
-//	}
-
-
+	public function title(){
+		return $this->blog->title.$this->title;
+	}
     public function cycle()
     {
         if ($this->cycle == 'odd') {
@@ -40,7 +38,6 @@ class View_Blog_Show extends View_Layout
 
     public function comments_form()
     {
-	    Fire::log($this->id);
         return array(
             Form::open(Route::url('comment_add', array('id' => $this->id)), array('id' => 'comment_form', 'class' => 'blogger')),
             Form::label('username', 'User:'),
