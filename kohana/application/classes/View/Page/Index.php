@@ -1,18 +1,17 @@
 <?php
 class View_Page_Index extends View_Layout{
+	public $blogs,$comments;
 	public function blogs(){
-		$orm = ORM::factory('blog')->find_all();
 		$results = array();
-		foreach($orm as $r){
-			$comments = $r->comment->count_all();
+		foreach($this->blogs as $r){
 			$temp = array(
-				'url' => Route::url('blog_show',array('id'=>$r->id,'slug'=>$r->slug)),
-				'title'=>$r->title,
-				'blog'=>$this->truncate($r->blog,500),
-				'author'=>$r->author,
-				'created'=>$r->created,
-				'tags'=>$r->tags,
-				'comments'=>$comments
+				'url' => Route::url('blog_show',array('id'=>$r['id'],'slug'=>$r['slug'])),
+				'title'=>$r['title'],
+				'blog'=>$this->truncate($r['blog'],500),
+				'author'=>$r['author'],
+				'created'=>$r['created'],
+				'tags'=>$r['tags'],
+				'comments'=>$r['comments']
 			);
 			$results[] = $temp;
 		}

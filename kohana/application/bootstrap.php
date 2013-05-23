@@ -90,6 +90,7 @@ Kohana::init(array(
 	'base_url' => '/',
 	'index_file' => '',
 	'profile' => TRUE,
+	'caching' => FALSE
 ));
 
 /**

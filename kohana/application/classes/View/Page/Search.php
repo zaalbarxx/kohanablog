@@ -2,17 +2,13 @@
 
 class View_Page_Search extends View_Layout
 {
-    public $query;
+    public $query,$results;
     protected $truncate_val = 30;
 
     public function results()
     {
         $search = array();
-        $results = ORM::factory('blog')->where('title', 'LIKE', '%' . $this->query . '%')
-            ->or_where('blog', 'LIKE', '%' . $this->query . '%')
-            ->or_where('author', 'LIKE', '%' . $this->query . '%')
-            ->or_where('tags', 'LIKE', '%' . $this->query . '%')->find_all();
-        foreach ($results as $res) {
+        foreach ($this->results as $res) {
             $r = $res->as_array();
             $r['title'] = $res->title;
             $r['blog'] = $this->truncatePreserveWords($res->blog,$this->query,5,'b');
