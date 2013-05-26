@@ -58,7 +58,8 @@ ini_set('unserialize_callback_func', 'spl_autoload_call');
 /**
  * Set the default language
  */
-I18n::lang('en-us');
+
+
 Cookie::$salt = 'foobar';
 /**
  * Set Kohana::$environment if a 'KOHANA_ENV' environment variable has been supplied.
@@ -70,7 +71,13 @@ Cookie::$salt = 'foobar';
 if (isset($_SERVER['KOHANA_ENV'])) {
 	Kohana::$environment = constant('Kohana::' . strtoupper($_SERVER['KOHANA_ENV']));
 }
-
+$lang = Cookie::get('lang', 'en');
+if(!in_array($lang, array('en', 'pl'))) {
+	// check the allowed languages, and force the default
+	$lang = 'pl';
+}
+// set the target language
+I18n::lang($lang);
 /**
  * Initialize Kohana, setting the default options.
  *
@@ -146,6 +153,11 @@ Route::set('admin_comment_index', 'admin/comments/index')
 		'controller' => 'Comment',
 		'action' => 'index',
 		'page' => '1'
+	));
+Route::set('language_change','lang')
+	->defaults(array(
+		'controller'=>'Language',
+		'action'=>'change'
 	));
 Route::set('admin_blog_action', 'admin/blog/<action>(/<id>)', array('action' => '(add|edit|delete)', 'id' => '[0-9]+'))
 	->defaults(array(

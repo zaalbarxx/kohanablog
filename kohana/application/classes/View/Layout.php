@@ -8,13 +8,19 @@ class View_Layout
 	{
 		return URL::base();
 	}
-
+	public function language(){
+		return array(
+			Form::open(Route::url('language_change'),array('id'=>'language_change','method'=>'POST')),
+			Form::select('language',array('en'=>__('English'),'pl'=>__('Polish')), $this->get_lang_by_shortcut(Cookie::get('lang'))),
+			Form::close()
+		);
+	}
 	public function navi_bar()
 	{
 		return array(
-			array('name' => 'Home', 'url' => Route::url('index')),
-			array('name' => 'About', 'url' => Route::url('about')),
-			array('name' => 'Contact', 'url' => Route::url('contact'))
+			array('name' => __('Home'), 'url' => Route::url('index')),
+			array('name' => __('About'), 'url' => Route::url('about')),
+			array('name' => __('Contact'), 'url' => Route::url('contact'))
 		);
 	}
 
@@ -30,7 +36,6 @@ class View_Layout
 
 	public function tags()
 	{
-		//$this->tags = ORM::factory('blog')->select('tags')->find_all();
 		$tags = array();
 		foreach ($this->tags as $blogTag) {
 			$tags = array_merge(explode(",", $blogTag->tags), $tags);
@@ -43,7 +48,6 @@ class View_Layout
 		return $result;
 	}
 	public function latest_comments(){
-		//$this->latest_comments = ORM::factory('comment')->order_by('created', 'DESC')->with('blog')->limit(3)->find_all();
 		$results = array();
 		foreach($this->latest_comments as $c){
 			$results[] = array(
@@ -56,6 +60,14 @@ class View_Layout
 			);
 		}
 		return $results;
+	}
+	private function get_lang_by_shortcut($lang){
+		if($lang=='en'){
+			return __('English');
+		}
+		else if($lang=='pl'){
+			return __('Polish');
+		}
 	}
 	private function time_ago($time){
 		$now = new DateTime();

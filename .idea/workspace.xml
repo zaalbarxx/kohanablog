@@ -2,37 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" name="Default" comment="--commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Blog.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Model/Blog.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Model/Blog.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Comment.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Comment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Blog/Index.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Blog/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Comment/Index.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Admin/Comment/Index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Language.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/i18n/en.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/kohana/application/i18n/pl.php" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\kohanablog\kohana\assets\screen.css" afterPath="$PROJECT_DIR$/kohana/assets/css/screen.css" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\kohanablog\kohana\assets\screen_admin.css" afterPath="$PROJECT_DIR$/kohana/assets/css/screen_admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Controller/Blog.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Blog.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Model/Comment.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Model/Comment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/Controller/Main.php" afterPath="$PROJECT_DIR$/kohana/application/classes/Controller/Main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/classes/View/Layout.php" afterPath="$PROJECT_DIR$/kohana/application/classes/View/Layout.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/bootstrap.php" afterPath="$PROJECT_DIR$/kohana/application/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/templates/Admin/Comment/index.mustache" afterPath="$PROJECT_DIR$/kohana/application/templates/Admin/Comment/index.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/templates/Page/index.mustache" afterPath="$PROJECT_DIR$/kohana/application/templates/Page/index.mustache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/config/pagination.php" afterPath="$PROJECT_DIR$/kohana/application/config/pagination.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kohana/application/templates/layout.mustache" afterPath="$PROJECT_DIR$/kohana/application/templates/layout.mustache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="kohanablog.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369514292528" ignored="false" />
     <file path="/Show.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369512664051" ignored="false" />
-    <file path="/Index.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369602562629" ignored="false" />
-    <file path="/Layout.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369339967826" ignored="false" />
-    <file path="/bootstrap.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369599524386" ignored="false" />
-    <file path="/layout.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369254615178" ignored="false" />
+    <file path="/Index.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369607423561" ignored="false" />
+    <file path="/Layout.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369611847052" ignored="false" />
+    <file path="/bootstrap.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369611240167" ignored="false" />
+    <file path="/layout.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369610048932" ignored="false" />
     <file path="/index.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369602597869" ignored="false" />
-    <file path="/Comment.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369602480220" ignored="false" />
+    <file path="/Comment.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369605814118" ignored="false" />
     <file path="/about.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369158207673" ignored="false" />
     <file path="/Contact.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369159673489" ignored="false" />
     <file path="/a.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369259897576" ignored="false" />
     <file path="/contact.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369159902054" ignored="false" />
-    <file path="/screen.css" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369160028257" ignored="false" />
+    <file path="/screen.css" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369609395528" ignored="false" />
     <file path="/search_bar.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369163402370" ignored="false" />
     <file path="/Search.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369324889897" ignored="false" />
-    <file path="/Main.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369601685947" ignored="false" />
+    <file path="/Main.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369606786457" ignored="false" />
     <file path="/Layout_Admin.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369167164296" ignored="false" />
     <file path="/layout_admin.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369165222800" ignored="false" />
     <file path="/a.dummy" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369507043658" ignored="false" />
@@ -42,15 +44,19 @@
     <file path="/layoutadmin.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369507647550" ignored="false" />
     <file path="/LayoutAdmin.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369171629391" ignored="false" />
     <file path="/sidebar.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369260679798" ignored="false" />
-    <file path="/dummy.xml" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369260629043" ignored="false" />
-    <file path="/Blog.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369602499606" ignored="false" />
-    <file path="/screen_admin.css" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369595181172" ignored="false" />
+    <file path="/dummy.xml" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369609465516" ignored="false" />
+    <file path="/Blog.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369606141262" ignored="false" />
+    <file path="/screen_admin.css" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369605922039" ignored="false" />
     <file path="/Create.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369518203873" ignored="false" />
     <file path="/create.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369515333160" ignored="false" />
     <file path="/edit.mustache" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369518491859" ignored="false" />
     <file path="/Edit.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369596678027" ignored="false" />
     <file path="/README.md" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369598440893" ignored="false" />
     <file path="/pagination.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369599687200" ignored="false" />
+    <file path="/en.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369608346028" ignored="false" />
+    <file path="/pl.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369608635963" ignored="false" />
+    <file path="/main.js" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369610881516" ignored="false" />
+    <file path="/Language.php" changelist="a51a9ed1-02a2-4e2e-9dce-ea5c110197fb" time="1369611639319" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,91 +76,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Blog.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Blog.php">
+      <file leaf-file-name="Main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="50" selection-start="805" selection-end="805" vertical-scroll-proportion="-13.730769">
+            <state line="39" column="37" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Blog/Index.php">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="-15.692307">
+            <state line="7" column="44" selection-start="241" selection-end="241" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/index.mustache">
+      <file leaf-file-name="layout.mustache" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/templates/layout.mustache">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="23" column="25" selection-start="899" selection-end="899" vertical-scroll-proportion="-7.576923">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/Comment/index.mustache">
+      <file leaf-file-name="Exception.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/system/classes/Kohana/Kohana/Exception.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="16" selection-start="682" selection-end="682" vertical-scroll-proportion="-17.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.692307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/Blog/edit.mustache">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="6" column="1" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.mustache" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/Blog/index.mustache">
+      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="16" selection-start="355" selection-end="355" vertical-scroll-proportion="-8.5">
+            <state line="79" column="18" selection-start="2282" selection-end="2282" vertical-scroll-proportion="-22.23077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Comment.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Comment.php">
+      <file leaf-file-name="Language.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Language.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="41" selection-start="1661" selection-end="1661" vertical-scroll-proportion="-25.384615">
+            <state line="13" column="1" selection-start="414" selection-end="414" vertical-scroll-proportion="0.2675545">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pagination.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kohana/application/config/pagination.php">
+      <file leaf-file-name="pl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/i18n/pl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="596" selection-end="596" vertical-scroll-proportion="0.3292978">
+            <state line="6" column="39" selection-start="186" selection-end="186" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php">
+      <file leaf-file-name="en.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/i18n/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="77" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.5384617">
+            <state line="6" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Comment/Index.php">
+      <file leaf-file-name="Layout.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Layout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="33" selection-start="761" selection-end="761" vertical-scroll-proportion="-14.384615">
+            <state line="37" column="5" selection-start="902" selection-end="902" vertical-scroll-proportion="5.8846154">
               <folding />
             </state>
           </provider>
@@ -178,22 +184,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/kohana/assets/screen_admin.css" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Admin/Comment/Edit.php" />
-        <option value="$PROJECT_DIR$/kohana/README.md" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/Model/Blog.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php" />
-        <option value="$PROJECT_DIR$/kohana/application/templates/Page/index.mustache" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Main.php" />
-        <option value="$PROJECT_DIR$/kohana/application/bootstrap.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Blog.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Admin/Comment/Index.php" />
-        <option value="$PROJECT_DIR$/kohana/application/classes/View/Admin/Blog/Index.php" />
-        <option value="$PROJECT_DIR$/kohana/application/templates/Admin/Comment/index.mustache" />
-        <option value="$PROJECT_DIR$/kohana/application/templates/Admin/Blog/index.mustache" />
         <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Comment.php" />
         <option value="$PROJECT_DIR$/kohana/application/config/pagination.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/Model/Comment.php" />
+        <option value="$PROJECT_DIR$/kohana/assets/screen_admin.css" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Blog.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Main.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php" />
+        <option value="$PROJECT_DIR$/kohana/assets/screen.css" />
+        <option value="$PROJECT_DIR$/kohana/assets/js/main.js" />
+        <option value="$PROJECT_DIR$/kohana/application/bootstrap.php" />
+        <option value="$PROJECT_DIR$/kohana/application/templates/layout.mustache" />
+        <option value="$PROJECT_DIR$/kohana/application/i18n/pl.php" />
+        <option value="$PROJECT_DIR$/kohana/application/i18n/en.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/View/Layout.php" />
+        <option value="$PROJECT_DIR$/kohana/application/classes/Controller/Language.php" />
       </list>
     </option>
   </component>
@@ -293,7 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,11 +317,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pagination" />
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,15 +339,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pagination" />
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="Kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kohana" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -362,6 +398,32 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohanablog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kohana" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -421,93 +483,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="i18n" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,108 +564,6 @@
               <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Comment" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -714,36 +588,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohanablog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kohana" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -777,11 +621,11 @@
       <recent name="C:\xampp\htdocs\kohanablog\kohana\application\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\kohanablog\kohana\assets\css" />
       <recent name="C:\xampp\htdocs\kohanablog\kohana" />
       <recent name="C:\xampp\htdocs\kohanablog\kohana\application\templates\Admin\Blog" />
       <recent name="C:\xampp\htdocs\kohanablog\kohana\application\classes\View\Admin\Blog" />
       <recent name="C:\xampp\htdocs\kohanablog\kohana\application\classes\View" />
-      <recent name="C:\xampp\htdocs\kohanablog\kohana\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -830,7 +674,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -916,114 +760,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kohana/application/config/database.php">
+    <entry file="file://$PROJECT_DIR$/kohana/assets/css/screen_admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="12" selection-start="1263" selection-end="1263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="64" selection-start="930" selection-end="930" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Blog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="70" selection-start="437" selection-end="437" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/modules/pagination/views/pagination/basic.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Page/index.mustache">
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="3" selection-start="795" selection-end="795" vertical-scroll-proportion="-14.384615">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kohana/assets/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="15" selection-start="2097" selection-end="2097" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="858" selection-end="858" vertical-scroll-proportion="-15.692307">
+        <state line="39" column="37" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Model/Blog.php">
+    <entry file="file://$PROJECT_DIR$/kohana/system/classes/Kohana/Kohana/Exception.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="32" selection-start="1363" selection-end="1363" vertical-scroll-proportion="-13.730769">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.692307">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kohana/application/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="25" selection-start="5172" selection-end="5172" vertical-scroll-proportion="-29.961538">
+        <state line="79" column="18" selection-start="2282" selection-end="2282" vertical-scroll-proportion="-22.23077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Page/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="32" selection-start="561" selection-end="561" vertical-scroll-proportion="-14.384615">
+        <state line="7" column="44" selection-start="241" selection-end="241" vertical-scroll-proportion="-4.576923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Index.php">
+    <entry file="file://$PROJECT_DIR$/kohana/assets/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="77" selection-start="304" selection-end="304" vertical-scroll-proportion="-6.5384617">
+        <state line="6" column="1" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Blog/Index.php">
+    <entry file="file://$PROJECT_DIR$/kohana/application/i18n/pl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="868" selection-end="868" vertical-scroll-proportion="-15.692307">
+        <state line="6" column="39" selection-start="186" selection-end="186" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/index.mustache">
+    <entry file="file://$PROJECT_DIR$/kohana/application/i18n/en.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="6" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.9230769">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/Comment/index.mustache">
+    <entry file="file://$PROJECT_DIR$/kohana/application/templates/layout.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="16" selection-start="682" selection-end="682" vertical-scroll-proportion="-17.0">
+        <state line="23" column="25" selection-start="899" selection-end="899" vertical-scroll-proportion="-7.576923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/Blog/edit.mustache">
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="5" selection-start="902" selection-end="902" vertical-scroll-proportion="5.8846154">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/templates/Admin/Blog/index.mustache">
+    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Language.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="355" selection-end="355" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Blog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="50" selection-start="805" selection-end="805" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/View/Admin/Comment/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="33" selection-start="761" selection-end="761" vertical-scroll-proportion="-14.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/classes/Controller/Admin/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="41" selection-start="1661" selection-end="1661" vertical-scroll-proportion="-25.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kohana/application/config/pagination.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="596" selection-end="596" vertical-scroll-proportion="0.3292978">
+        <state line="13" column="1" selection-start="414" selection-end="414" vertical-scroll-proportion="0.2675545">
           <folding />
         </state>
       </provider>

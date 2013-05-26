@@ -54,7 +54,9 @@ body {
 b {
 
 }
-
+ul#errors li{
+    color:red;
+}
 #wrapper {
     margin: 10px auto;
     width: 1000px;

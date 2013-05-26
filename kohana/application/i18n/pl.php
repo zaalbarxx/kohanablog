@@ -1,0 +1,30 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+return array(
+	'Home' => 'Strona główna',
+	'About' => 'O nas',
+	'Contact' => 'Kontakt',
+	'Contact_form'=>'Skontaktuj się z',
+	'footer_msg' => 'Kohana blog - bazuje na blogu Symfony2 stworzonym przez ',
+	'creating_blog' => 'tworzenie bloga w Kohana 3.3',
+	'Search' => 'Szukaj',
+	'Tag Cloud' => 'Chmura tagów',
+	'Latest Comments' => 'Ostatnie komentarze',
+	'commented on' => 'skomentował w',
+	'Continue reading' => 'Czytaj dalej',
+	'Comments' => 'Komentarze',
+	'commented' => 'skomentował',
+	'User' => 'Użytkownik',
+	'Body' => 'Treść',
+	'Submit' => 'Wyślij',
+	'Add Comment' => 'Dodaj komentarz',
+	'about_message' => 'To jest prosty blog wykonany w Kohana 3.3. Użyte moduły:',
+	'Name' => 'Nazwa',
+	'Email' => 'Email',
+	'Subject' => 'Tytuł',
+	'Message' => 'Treść',
+	'Contact message' => 'Jeśli chcesz się z nami skontaktować, prosimy, wypełnij poniższy formularz :).',
+	'Language' => 'Język',
+	'English' => 'Angielski',
+	'Polish' => 'Polski'
+);

@@ -10,4 +10,20 @@
 class Model_Comment extends ORM {
 	protected $_table_name = 'comment';
 	protected $_belongs_to = array('blog'=>array('model'=>'blog'));
+
+
+	public function rules()
+	{
+		return array(
+			'user' => array(
+				array('min_length', array(':value', 1)),
+				array('max_length', array(':value', 60))
+			),
+			'comment' => array(
+				array('not_empty'),
+				array('min_length', array(':value', 1)),
+				array('max_length', array(':value', 500))
+			)
+		);
+	}
 }

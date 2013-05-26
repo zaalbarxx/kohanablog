@@ -1,0 +1,30 @@
+<?php defined('SYSPATH') or die('No direct script access.');
+
+return array(
+	'Home' => 'Home',
+	'About' => 'About',
+	'Contact' => 'Contact',
+	'Contact_form' => 'Contact',
+	'footer_msg' => 'Kohana blog - based on Symfony 2 Blog by ',
+	'creating_blog' => 'creating a blog in Kohana 3.3',
+	'Search' => 'Search',
+	'Tag Cloud' => 'Tag Cloud',
+	'Latest Comments' => 'Latest Comments',
+	'commented on' => 'commented on',
+	'Continue reading' => 'Continue reading',
+	'Comments' => 'Comments',
+	'commented' => 'commented',
+	'User' => 'User',
+	'Body' => 'Body',
+	'Submit' => 'Submit',
+	'Add Comment' => 'Add Comment',
+	'about_message' => 'This is simple Kohana 3.3 blog. Used modules',
+	'Name' => 'Name',
+	'Email' => 'Email',
+	'Subject' => 'Subject',
+	'Message' => 'Message',
+	'Contact message' => 'If you want to contact us, please, fill form below :).',
+	'Language' => 'Language',
+	'English' => 'English',
+	'Polish' => 'Polish'
+);

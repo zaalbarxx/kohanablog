@@ -9,7 +9,7 @@ class Controller_Blog extends Controller{
         $view = new View_Blog_Show;
         $view->id = $id;
 	    $view->blog = $result;
-	    $view->comments = $result->comment->where('approved','=','1')->find_all();
+	    $view->comments = $result->comment->order_by('created','DESC')->where('approved','=','1')->find_all();
 	    $view->tags = ORM::factory('blog')->select('tags')->find_all();
 	    $view->latest_comments = ORM::factory('comment')->order_by('created', 'DESC')->with('blog')->limit(3)->find_all();
         $this->response->body($layout->render($view));
