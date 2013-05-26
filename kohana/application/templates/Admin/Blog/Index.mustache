@@ -1,0 +1,13 @@
+{{>status}}
+<a href="{{newblog}}">Add new blog</a>
+<table id="blogs_table">
+    {{#blogs}}
+        <tr>
+            <td>{{id}}</td>
+            <td>{{title}}</td>
+            <td>{{blog}}</td>
+            <td><a href="{{editURL}}">Edit</a></td>
+            <td><a href="{{deleteURL}}">Delete</a></td>
+        </tr>
+    {{/blogs}}
+</table>

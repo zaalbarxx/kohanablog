@@ -1,0 +1,369 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body {
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 14px;
+}
+#admin_options{
+    margin:20px 10px;
+}
+#admin_options li{
+    margin:10px 5px;
+}
+.clear {
+    clear: both;
+}
+
+b {
+
+}
+
+#wrapper {
+    margin: 10px auto;
+    width: 1000px;
+}
+
+#wrapper a {
+    text-decoration: none;
+    color: #F48A00;
+}
+
+#wrapper span.highlight {
+    color: #F48A00;
+}
+
+#header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#header .top {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#header ul.navigation {
+    list-style: none;
+    text-align: right;
+}
+
+#header .navigation li {
+    display: inline
+}
+
+#header .navigation li a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-left: 1px solid #ccc;
+}
+
+#header h2 {
+    font-family: 'Irish Grover', cursive;
+    font-size: 92px;
+    text-align: center;
+    line-height: 110px;
+}
+
+#header h2 a {
+    color: #000;
+}
+
+#header h3 {
+    text-align: center;
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.comments {
+    clear: both;
+}
+
+.comments .odd {
+    background: #eee;
+}
+
+.comments .comment {
+    padding: 20px;
+}
+
+.comments .comment p {
+    margin-bottom: 0;
+}
+
+.comments h3 {
+    background: #eee;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.comments .previous-comments {
+    margin-bottom: 20px;
+}
+
+#blogs_table td {
+    padding: 30px;
+}
+#comments_table td{
+    padding:30px;
+}
+.sidebar .section {
+    margin-bottom: 20px;
+}
+
+.sidebar h3 {
+    line-height: 1.2em;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    background: #eee;
+    padding: 5px;
+}
+
+.sidebar p {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none
+}
+
+.sidebar ul li {
+    line-height: 1.5em
+}
+
+.sidebar .small {
+    font-size: 12px;
+}
+
+.sidebar .comment p {
+    margin-bottom: 5px;
+}
+
+.sidebar .comment {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.sidebar .tags {
+    font-weight: bold;
+}
+
+.sidebar .tags span {
+    color: #000;
+    font-size: 12px;
+}
+
+.sidebar .tags .weight-1 {
+    font-size: 12px;
+}
+
+.sidebar .tags .weight-2 {
+    font-size: 15px;
+}
+
+.sidebar .tags .weight-3 {
+    font-size: 18px;
+}
+
+.sidebar .tags .weight-4 {
+    font-size: 21px;
+}
+
+.sidebar .tags .weight-5 {
+    font-size: 24px;
+}
+
+#search_form {
+    display: inline;
+}
+
+.main-col {
+    width: 960px;
+    display: inline-block;
+    float: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    width: 239px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.main-col a {
+    color: #F48A00;
+}
+
+.main-col h1,
+.main-col h2 {
+    line-height: 1.2em;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: #F48A00;
+}
+
+.main-col p {
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+#footer {
+    border-top: 1px solid #ccc;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    color: #aaa;
+}
+
+.blogger-notice {
+    text-align: center;
+    padding: 10px;
+    background: #DFF2BF;
+    border: 1px solid;
+    color: #4F8A10;
+    margin-bottom: 10px;
+}
+
+form.blogger {
+    background: -webkit-gradient(linear, bottom, left 175px, from(#CCCCCC), to(#EEEEEE));
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    margin: auto;
+    position: relative;
+    width: 550px;
+    height: 450px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    font-weight: bold;
+    color: #09C;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+form.blogger input {
+    width: 375px;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+    -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+form.blogger textarea:focus, form.blogger input:focus {
+    border: 3px solid #09C;
+}
+ul.errors{
+    margin:20px;
+}
+ul.errors li{
+    margin:10px 0px;
+    font-weight: bolder;
+}
+form.blogger input[type=submit] {
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #09C;
+    color: #fff;
+    font-family: Tahoma, Geneva, sans-serif;
+    height: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid #999;
+}
+form.blogger textarea {
+    display:block;
+}
+input.button:hover {
+    background: #fff;
+    color: #09C;
+}
+
+textarea.blogger {
+    width: 375px;
+    height: 150px;
+}
+
+/** src/Blogger/BlogBundle/Resorces/public/css/blog.css **/
+.comments {
+    clear: both;
+}
+
+.comments .odd {
+    background: #eee;
+}
+
+.comments .comment {
+    padding: 20px;
+}
+
+.comments .comment p {
+    margin-bottom: 0;
+}
+
+.comments h3 {
+    background: #eee;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.comments .previous-comments {
+    margin-bottom: 20px;
+}

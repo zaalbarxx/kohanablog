@@ -27,7 +27,7 @@ class Model_Blog extends ORM
 			'blog' => array(
 				array('not_empty'),
 				array('min_length', array(':value', 4)),
-				array('max_length', array(':value', 500))
+				array('max_length', array(':value', 2500))
 			),
 			'image' => array(
 				array('min_length', array(':value', 4)),
@@ -37,19 +37,18 @@ class Model_Blog extends ORM
 				array('min_length', array(':value', 4)),
 				array('max_length', array(':value', 128)),
 			),
-			'created' => array(
-				array('datetime')
-			), 'updated' => array(
-				array('datetime')
-			), 'slug' => array(
+			'slug' => array(
 				array('not_empty'),
 				array('max_length', array(':value', 200)),
 			)
 		);
 	}
-	public function getBlog($id){
-		return $this->where('id','=',$id)->find();
+
+	public function getBlog($id)
+	{
+		return $this->where('id', '=', $id)->find();
 	}
+
 	public function getBlogsCountComments($limit = null)
 	{
 		$query = $this->order_by('created', 'DESC');
@@ -74,44 +73,30 @@ class Model_Blog extends ORM
 		return $results;
 	}
 
-	public function getTags()
+	public function slugify($text)
 	{
-		$results = $this->select('tags')->find_all();
-		$tags = array();
-		foreach ($results as $result) {
-			$tags = array_merge(explode(',', $result->tags), $tags);
-		}
-		foreach ($tags as $tag) {
-			$tag = trim($tag);
-		}
-		return $tags;
-	}
+		// replace non letter or digits by -
+		$text = preg_replace('#[^\\pL\d]+#u', '-', $text);
 
-	public function getTagsWeight($tags)
-	{
-		$tagWeights = array();
-		if (empty($tags))
-			return $tagWeights;
+		// trim
+		$text = trim($text, '-');
 
-		foreach ($tags as $tag) {
-			$tagWeights[$tag] = (isset($tagWeights[$tag]) ? $tagWeights[$tag] + 1 : 1);
+		// transliterate
+		if (function_exists('iconv')) {
+			$text = iconv('utf-8', 'us-ascii//TRANSLIT', $text);
 		}
-		uksort($tagWeights, function () {
-			return rand() > rand();
-		});
 
-		$max = max($tagWeights);
+		// lowercase
+		$text = strtolower($text);
 
+		// remove unwanted characters
+		$text = preg_replace('#[^-\w]+#', '', $text);
 
-		$multiplier = ($max > 5) ? 5 / $max : 1;
-		foreach ($tagWeights as &$tag) {
-			$tag = ceil($tag * $multiplier);
+		if (empty($text)) {
+			return 'n-a';
 		}
-		$arr = array();
-		foreach ($tagWeights as $key => $value) {
-			$arr[] = array('name' => $key, 'value' => $value);
-		}
-		return $arr;
+
+		return $text;
 	}
 
 }

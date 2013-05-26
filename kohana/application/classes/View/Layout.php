@@ -2,6 +2,7 @@
 class View_Layout
 {
 	public $title = 'Kohana Blog';
+	public $tags,$latest_comments;
 
 	public function base()
 	{
@@ -29,9 +30,9 @@ class View_Layout
 
 	public function tags()
 	{
-		$blogtags = ORM::factory('blog')->select('tags')->find_all();
+		//$this->tags = ORM::factory('blog')->select('tags')->find_all();
 		$tags = array();
-		foreach ($blogtags as $blogTag) {
+		foreach ($this->tags as $blogTag) {
 			$tags = array_merge(explode(",", $blogTag->tags), $tags);
 		}
 
@@ -42,9 +43,9 @@ class View_Layout
 		return $result;
 	}
 	public function latest_comments(){
-		$comments = ORM::factory('comment')->order_by('created','DESC')->with('blog')->limit(3)->find_all();
+		//$this->latest_comments = ORM::factory('comment')->order_by('created', 'DESC')->with('blog')->limit(3)->find_all();
 		$results = array();
-		foreach($comments as $c){
+		foreach($this->latest_comments as $c){
 			$results[] = array(
 				'user'=>$c->user,
 				'id'=>$c->id,
@@ -84,6 +85,7 @@ class View_Layout
 		if(strlen($string)>$limit) return substr($string,0,$limit);
 		return $string;
 	}
+
 	private function getTagsWeight($tags)
 	{
 		$tagWeights = array();
@@ -111,4 +113,5 @@ class View_Layout
 		}
 		return $res;
 	}
+
 }

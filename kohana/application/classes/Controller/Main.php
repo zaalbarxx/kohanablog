@@ -4,19 +4,24 @@ defined('SYSPATH') or die('No direct script access.');
 
 class Controller_Main extends Controller
 {
-	private $layout;
+	private $layout, $view;
 
 	public function before()
 	{
 		$this->layout = Kostache_Layout::factory('layout');
 	}
+	public function after(){
+	$this->view->tags = ORM::factory('blog')->select('tags')->find_all();
+	$this->view->latest_comments = ORM::factory('comment')->order_by('created', 'DESC')->with('blog')->limit(3)->find_all();
+	$this->response->body($this->layout->render($this->view));
+}
 
 	public function action_index()
 	{
 		$blogs = ORM::factory('blog')->getBlogsCountComments();
-		$view = new View_Page_Index;
-		$view->blogs = $blogs;
-		$this->response->body($this->layout->render($view));
+		$this->view = new View_Page_Index;
+		$this->view->blogs = $blogs;
+	//	$this->response->body($this->layout->render($this->view));
 	}
 
 
@@ -43,24 +48,21 @@ class Controller_Main extends Controller
 
 	public function action_contact()
 	{
-		$view = new View_Page_Contact;
-		$this->response->body($this->layout->render($view));
+		$this->view = new View_Page_Contact;
 	}
 
 	public function action_about()
 	{
-		$view = new View_Page_About;
-		$this->response->body($this->layout->render($view));
+		$this->view = new View_Page_About;
 	}
 
 	public function action_search()
 	{
 		$query = mysql_real_escape_string($this->request->query('query'));
 		$results = ORM::factory('blog')->search_results($query);
-		$view = new View_Page_Search;
-		$view->query = $query;
-		$view->results = $results;
-		$this->response->body($this->layout->render($view));
+		$this->view = new View_Page_Search;
+		$this->view->query = $query;
+		$this->view->results = $results;
 	}
 
 }

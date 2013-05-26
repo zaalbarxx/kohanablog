@@ -35,7 +35,9 @@ class View_Blog_Show extends View_Layout
             return $b;
         }
     }
-
+	public function get_comments(){
+		return $this->comments;
+	}
     public function comments_form()
     {
         return array(
@@ -44,7 +46,7 @@ class View_Blog_Show extends View_Layout
             Form::input('username'),
             Form::label('body', 'Body:'),
             Form::textarea('body'),
-          //  Form::hidden('slug',$this->blog->slug),
+            Form::hidden('slug',$this->blog->slug),
             Form::submit('submit', 'Submit'),
             Form::close()
         );

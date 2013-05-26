@@ -127,8 +127,32 @@ Kohana::modules(array(
  * Set the routes. Each route must have a minimum of a name, a URI and a set of
  * defaults for the URI.
  */
+Route::set('admin_comment_action', 'admin/comments/<action>(/<id>)', array('action' => 'edit|delete', 'id' => '[0-9]+'))
+	->defaults(array(
+		'directory'=>'Admin',
+		'controller'=>'Comment',
+		'action'=>'<action>'
+	));
+Route::set('admin_comment_index', 'admin/comments(/index)')
+	->defaults(array(
+		'directory' => 'Admin',
+		'controller' => 'Comment',
+		'action' => 'index'
+	));
+Route::set('admin_blog_action', 'admin/blog/<action>(/<id>)', array('action' => '(add|edit|delete)', 'id' => '[0-9]+'))
+	->defaults(array(
+		'directory' => 'Admin',
+		'controller' => 'Blog',
+		'action' => '<action>'
+	));
+Route::set('admin_blog_index', 'admin/blog(/index)')
+	->defaults(array(
+		'directory' => 'Admin',
+		'controller' => 'Blog',
+		'action' => 'index'
+	));
 
-Route::set('admin_index', 'admin/index')
+Route::set('admin_index', 'admin(/index)')
 	->defaults(array(
 		'directory' => 'Admin',
 		'controller' => 'main',

@@ -1,0 +1,24 @@
+{{>status}}
+<a href="{{newblog}}">Add new blog</a>
+<table id="comments_table">
+    <tr>
+        <td>CommentID</td>
+        <td>BlogID</td>
+        <td>User</td>
+        <td>Comment</td>
+        <td>Approved</td>
+        <td>Edit</td>
+        <td>Delete</td>
+        </tr>
+    {{#comments}}
+        <tr>
+            <td>{{id}}</td>
+            <td>{{blog_id}}</td>
+            <td>{{user}}</td>
+            <td>{{comment}}</td>
+            <td>{{approved}}</td>
+            <td><a href="{{editURL}}">Edit</a></td>
+            <td><a href="{{deleteURL}}">Delete</a></td>
+        </tr>
+    {{/comments}}
+</table>

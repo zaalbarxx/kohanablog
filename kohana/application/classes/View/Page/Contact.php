@@ -14,15 +14,6 @@
 		}
 
 		public function contact_form(){
-
-//			return array(
-//				Form::open(Route::url('contact'), array('id' => 'contact_form', 'class' => 'blogger')),
-//				Form::label('username', 'User:'),
-//				Form::input('username'),
-//				Form::label('body', 'Body:'),
-//				Form::submit('submit', 'Submit'),
-//				Form::close()
-//			);
 			return array(
 				Form::open(Route::url('contact_add'),array('method'=>'POST','class'=>'blogger')),
 				Form::label('name','Name:'),
