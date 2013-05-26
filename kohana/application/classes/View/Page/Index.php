@@ -1,6 +1,6 @@
 <?php
 class View_Page_Index extends View_Layout{
-	public $blogs,$comments;
+	public $blogs,$comments,$pagination;
 	public function blogs(){
 		$results = array();
 		foreach($this->blogs as $r){
@@ -19,7 +19,9 @@ class View_Page_Index extends View_Layout{
 	}
 
 
-
+	public function pagination(){
+		return $this->pagination;
+	}
 	private function truncate($string,$length){
 		if(strlen($string)>$length){
 			return substr($string,0,$length).'...';

@@ -1,5 +1,4 @@
 {{>status}}
-<a href="{{newblog}}">Add new blog</a>
 <table id="comments_table">
     <tr>
         <td>CommentID</td>
@@ -9,16 +8,20 @@
         <td>Approved</td>
         <td>Edit</td>
         <td>Delete</td>
-        </tr>
+    </tr>
     {{#comments}}
         <tr>
             <td>{{id}}</td>
             <td>{{blog_id}}</td>
             <td>{{user}}</td>
             <td>{{comment}}</td>
-            <td>{{approved}}</td>
+            <td><select name="approved" id="approved_select">
+                {{{approved}}}
+            </select>
+            </td>
             <td><a href="{{editURL}}">Edit</a></td>
             <td><a href="{{deleteURL}}">Delete</a></td>
         </tr>
     {{/comments}}
 </table>
+{{{pagination}}}

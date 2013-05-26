@@ -133,11 +133,19 @@ Route::set('admin_comment_action', 'admin/comments/<action>(/<id>)', array('acti
 		'controller'=>'Comment',
 		'action'=>'<action>'
 	));
-Route::set('admin_comment_index', 'admin/comments(/index)')
+Route::set('admin_comment_page', 'admin/comments/index/<page>')
 	->defaults(array(
 		'directory' => 'Admin',
 		'controller' => 'Comment',
-		'action' => 'index'
+		'action' => 'index',
+		'page' => '<page>'
+	));
+Route::set('admin_comment_index', 'admin/comments/index')
+	->defaults(array(
+		'directory' => 'Admin',
+		'controller' => 'Comment',
+		'action' => 'index',
+		'page' => '1'
 	));
 Route::set('admin_blog_action', 'admin/blog/<action>(/<id>)', array('action' => '(add|edit|delete)', 'id' => '[0-9]+'))
 	->defaults(array(
@@ -145,11 +153,19 @@ Route::set('admin_blog_action', 'admin/blog/<action>(/<id>)', array('action' => 
 		'controller' => 'Blog',
 		'action' => '<action>'
 	));
-Route::set('admin_blog_index', 'admin/blog(/index)')
+Route::set('admin_blog_page', 'admin/blog/index/<page>')
 	->defaults(array(
 		'directory' => 'Admin',
 		'controller' => 'Blog',
-		'action' => 'index'
+		'action' => 'index',
+		'page' => '<page>'
+	));
+Route::set('admin_blog_index', 'admin/blog/index')
+	->defaults(array(
+		'directory' => 'Admin',
+		'controller' => 'Blog',
+		'action' => 'index',
+		'page' => '1'
 	));
 
 Route::set('admin_index', 'admin(/index)')
@@ -199,10 +215,17 @@ Route::set('contact', 'contact')
 		'controller' => 'main',
 		'action' => 'contact',
 	));
-Route::set('index', '(index(/<page>))')
+Route::set('index_page', '(index(/<page>))',array('page'=>'[0-9]+'))
 	->defaults(array(
 		'controller' => 'main',
 		'action' => 'index',
+		'page' =>'<page>'
+	));
+Route::set('index', '(index)')
+	->defaults(array(
+		'controller' => 'main',
+		'action' => 'index',
+		'page' =>'1'
 	));
 
 

@@ -49,12 +49,9 @@ class Model_Blog extends ORM
 		return $this->where('id', '=', $id)->find();
 	}
 
-	public function getBlogsCountComments($limit = null)
+	public function getBlogsCountComments($pagination)
 	{
-		$query = $this->order_by('created', 'DESC');
-		if ($limit != null) {
-			$query->limit($limit);
-		}
+		$query = $this->order_by('created', 'DESC')->offset($pagination->offset)->limit($pagination->items_per_page);
 		$query = $query->find_all();
 		$results = array();
 		foreach ($query as $q) {

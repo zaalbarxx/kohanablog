@@ -46,9 +46,12 @@ class Controller_Admin_Comment extends Controller
 	}
 	public function action_index()
 	{
-		$results = ORM::factory('comment')->order_by('created', 'DESC')->find_all();
+		$pagination = Pagination::factory(Kohana::$config->load('pagination')->get('admin_blogs_comments'));
+		$pagination->setup(array('total_items'=>ORM::factory('comment')->count_all()));
+		$comments = ORM::factory('comment')->order_by('created','DESC')->limit($pagination->items_per_page)->offset($pagination->offset)->find_all();
 		$view = new View_Admin_Comment_Index;
-		$view->comments = $results;
+		$view->pagination = $pagination->render();
+		$view->comments = $comments;
 		$this->response->body($this->template->render($view));
 	}
 }

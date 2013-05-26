@@ -18,10 +18,12 @@ class Controller_Main extends Controller
 
 	public function action_index()
 	{
-		$blogs = ORM::factory('blog')->getBlogsCountComments();
+		$pagination = Pagination::factory(Kohana::$config->load('pagination')->get('default'));
+		$pagination->setup(array('total_items'=>ORM::factory('blog')->count_all()));
+		$blogs = ORM::factory('blog')->getBlogsCountComments($pagination);
 		$this->view = new View_Page_Index;
+		$this->view->pagination = $pagination->render();
 		$this->view->blogs = $blogs;
-	//	$this->response->body($this->layout->render($this->view));
 	}
 
 

@@ -14,9 +14,12 @@ class Controller_Admin_Blog extends Controller
 
 	public function action_index()
 	{
-		$blogs = ORM::factory('blog')->find_all();
+		$pagination = Pagination::factory(Kohana::$config->load('pagination')->get('admin_blogs_comments'));
+		$pagination->setup(array('total_items'=>ORM::factory('blog')->count_all()));
+		$blogs = ORM::factory('blog')->order_by('created','DESC')->limit($pagination->items_per_page)->offset($pagination->offset)->find_all();
 		$view = new View_Admin_Blog_Index;
 		$view->blogs = $blogs;
+		$view->pagination = $pagination->render();
 		$this->response->body($this->template->render($view));
 	}
 
