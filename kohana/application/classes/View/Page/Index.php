@@ -1,6 +1,16 @@
 <?php
 class View_Page_Index extends View_Layout{
 	public $blogs,$comments,$pagination;
+
+	public function __construct(){
+		parent::__construct();
+		$this->__comments = __('Comments');
+		$this->__tags = __('Tags');
+		$this->__posted_by = __('Posted by');
+		$this->__date_at = __('date at');
+		$this->__comments = __('Comments');
+		$this->__continue_reading = __('Continue reading');
+	}
 	public function blogs(){
 		$results = array();
 		foreach($this->blogs as $r){

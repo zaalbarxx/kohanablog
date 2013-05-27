@@ -9,17 +9,20 @@ class Controller_Main extends Controller
 	public function before()
 	{
 		$this->layout = Kostache_Layout::factory('layout');
+		Session::instance()->set('redirect', $this->request->uri());
 	}
-	public function after(){
-	$this->view->tags = ORM::factory('blog')->select('tags')->find_all();
-	$this->view->latest_comments = ORM::factory('comment')->order_by('created', 'DESC')->with('blog')->limit(3)->find_all();
-	$this->response->body($this->layout->render($this->view));
+
+	public function after()
+	{
+		$this->view->tags = ORM::factory('blog')->select('tags')->find_all();
+		$this->view->latest_comments = ORM::factory('comment')->order_by('created', 'DESC')->with('blog')->limit(3)->find_all();
+		$this->response->body($this->layout->render($this->view));
 }
 
 	public function action_index()
 	{
 		$pagination = Pagination::factory(Kohana::$config->load('pagination')->get('default'));
-		$pagination->setup(array('total_items'=>ORM::factory('blog')->count_all()));
+		$pagination->setup(array('total_items' => ORM::factory('blog')->count_all()));
 		$blogs = ORM::factory('blog')->getBlogsCountComments($pagination);
 		$this->view = new View_Page_Index;
 		$this->view->pagination = $pagination->render();

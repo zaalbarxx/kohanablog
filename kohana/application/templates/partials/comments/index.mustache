@@ -1,16 +1,16 @@
 <section class="comments" id="comments">
     <section class="previous-comments">
-            <h3>Comments</h3>
+            <h3>{{__comments}}</h3>
     {{#get_comments}}
     <article class="comment {{cycle}}" id="comment-{{id}}">
         <header>
-            <p><span class="highlight">{{user}}</span> commented <time datetime="{{created}}">{{created}}</time></p>
+            <p><span class="highlight">{{user}}</span> {{__commented}} <time datetime="{{created}}">{{created}}</time></p>
         </header>
         <p>{{comment}}</p>
          </article>
     {{/get_comments}}
     {{^get_comments}}
-        <p>There are no comments for this post. Be the first to comment...</p>
+        <p>{{__no_comments_for_post}}...</p>
     {{/get_comments}}
     </section>
     {{<comments/form_add}}

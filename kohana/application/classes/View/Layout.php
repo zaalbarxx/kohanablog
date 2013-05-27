@@ -3,7 +3,17 @@ class View_Layout
 {
 	public $title = 'Kohana Blog';
 	public $tags,$latest_comments;
-
+	public $__search;
+	public function __construct(){
+		$this->__search = __('Search');
+		$this->__tag_cloud = __('Tag Cloud');
+		$this->__latest_comments = __('Latest Comments');
+		$this->__commented_on = __('commented on');
+		$this->__no_tags = __('There are no tags');
+		$this->__no_latest_comments =__('There are no recent comments');
+		$this->__creating_blog_kohana = __('creating a blog in Kohana');
+		$this->__footer_msg = __('footer_msg');
+	}
 	public function base()
 	{
 		return URL::base();
@@ -26,14 +36,21 @@ class View_Layout
 
 	public function search_form()
 	{
+		Fire::log($this->__search);
 		return array(
 			Form::open(Route::url('search'), array('method' => 'GET')),
 			Form::input('query'),
-			Form::submit(NULL, 'Search'),
+			Form::submit(NULL, __('Search')),
 			Form::close()
 		);
 	}
 
+	public function scripts(){
+		return array(
+		"http://code.jquery.com/jquery-1.10.0.min.js",
+		$this->base().'assets/js/main.js'
+		);
+	}
 	public function tags()
 	{
 		$tags = array();
@@ -74,22 +91,22 @@ class View_Layout
 		$created = new DateTime($time);
 		$diff = $now->diff($created,TRUE);
 		if($diff->y>0){
-			return $diff->y.' years ago';
+			return $diff->y.__(' years ago');
 		}
 		if($diff->m>0){
-			return $diff->m.' months ago';
+			return $diff->m.__(' months ago');
 		}
 		if($diff->d>0){
-			return $diff->d.' days ago';
+			return $diff->d.__(' days ago');
 		}
 		if($diff->h>0){
-			return $diff->h.' hours ago';
+			return $diff->h.__(' hours ago');
 		}
 		if($diff->i>0){
-			return $diff->y.' minutes ago';
+			return $diff->y.__(' minutes ago');
 		}
 		else{
-			return '< 1 minute ago';
+			return __('< 1 minute ago');
 		}
 
 	}

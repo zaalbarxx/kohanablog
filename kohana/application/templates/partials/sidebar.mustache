@@ -1,6 +1,6 @@
 <section class="section">
     <header>
-        <h3>Search</h3>
+        <h3>{{__search}}</h3>
     </header>
     {{#search_form}}
         {{{.}}}
@@ -8,7 +8,7 @@
 </section>
 <section class="section">
     <header>
-        <h3>Tag Cloud</h3>
+        <h3>{{__tag_cloud}}</h3>
     </header>
 <p class="tags">
     {{#tags}}
@@ -16,18 +16,18 @@
     {{/tags}}
 
     {{^tags}}
-        <p>There are no tags</p>
+        <p>{{__no_latest_tags}}</p>
     {{/tags}}
     </p>
 </section>
 <section class="section">
     <header>
-        <h3>Latest Comments</h3>
+        <h3>{{__latest_comments}}</h3>
     </header>
     {{#latest_comments}}
         <article class="comment">
             <header>
-                <p class="small"><span class="highlight">{{user}}</span> commented on
+                <p class="small"><span class="highlight">{{user}}</span> {{__commented_on}}
 
                     <a href="{{url}}#comment-{{id}}">
                         {{title}}
@@ -42,6 +42,6 @@
         </article>
     {{/latest_comments}}
     {{^latest_comments}}
-        <p>There are no recent comments</p>
+        <p>{{__no_latest_comments}}</p>
     {{/latest_comments}}
 </section>

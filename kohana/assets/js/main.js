@@ -1,7 +1,5 @@
-window.onload = function(){
-    var lang = document.getElementById('language_change');
-    lang.addEventListener('change',function(){
-        lang.submit();
-    });
-
-}
+$(document).ready(function(){
+$('#language_change>select>option').on('click',function(form){
+    $('#language_change').submit();
+});
+});

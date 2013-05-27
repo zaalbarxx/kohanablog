@@ -7,12 +7,12 @@
 
             <div class="snippet">
                 <p>{{blog}}</p>
-                <p class="continue"><a href="{{url}}">Continue reading...</a></p>
+                <p class="continue"><a href="{{url}}">{{__continue_reading}}...</a></p>
             </div>
             <footer class="meta">
-                <p>Comments: <a href="{{url}}#comments">{{comments}}</a></p>
-                <p>Posted by <span class="highlight">{{author}}</span> at {{created}}</p>
-                <p>Tags: <span class="highlight">{{tags}}</span></p>
+                <p>{{__comments}}: <a href="{{url}}#comments">{{comments}}</a></p>
+                <p>{{__posted_by}} <span class="highlight">{{author}}</span> {{__date_at}} {{created}}</p>
+                <p>{{__tags}}: <span class="highlight">{{tags}}</span></p>
             </footer>
         </article>
 {{/blogs}}
